@@ -25,12 +25,12 @@
     color: rgb(40, 41, 46);
     display: flex;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .todo-app h2 img{
     width: 25px;
     margin-left: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
 }
 .row{
     display: flex;
@@ -39,10 +39,11 @@
     background: #edeef0;
     border-radius: 50px;
     padding-left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 input{
     flex: 1;
+    font-size: 14px;
     border: none;
     outline: none;
     background: transparent;
@@ -59,8 +60,9 @@ button{
 }
 ul li{
     list-style: none;
-    font-size: 16px;
-    padding: 18px 8px 12px 50px;
+    font-style: italic;
+    font-size: 18px;
+    padding: 15px 8px 10px 50px;
     user-select: none;
     cursor: pointer;
     position: relative;

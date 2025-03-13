@@ -1,9 +1,11 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+
 function addTask(){
     if(inputBox.value === ''){
         alert("Type something please!")
     }
+
     else{
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
@@ -15,6 +17,13 @@ function addTask(){
     inputBox.value = "";
     saveData();
 }
+
+inputBox.addEventListener('keyup', (e) => {
+    if(e.keyCode === 13){
+        addTask();
+    }
+});
+
 
 listContainer.addEventListener("click", function(e){
     if(e.target.tagName === "LI"){
