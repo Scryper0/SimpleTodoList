@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 .container{
-    widht: 100%;
+    width: 100%;
     min-height: 100vh;
     background: linear-gradient(90deg, #394b6b, #485475);
     padding: 20px;
